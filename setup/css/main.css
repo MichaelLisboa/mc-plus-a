@@ -7,8 +7,8 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Rubik');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik'); */
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -51,7 +51,8 @@ h3 {
 
 p,
 li {
-  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif !important;
 }
 
 
