@@ -7,6 +7,9 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -38,18 +41,19 @@ html {
 }
 
 h1,
+h2,
+h4,
+h5,
 h3 {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
   font-family: 'Rubik', "Helvetica", "Arial", sans-serif !important;
 }
 
 p,
-h4,
-h5,
 li {
-  font-weight: 300;
-  font-family: "Rubik", Georgia, "Garamond", "Times New Roman", serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
 }
+
 
 /*
  * A better looking default horizontal rule
