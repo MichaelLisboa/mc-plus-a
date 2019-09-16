@@ -4,8 +4,10 @@ import Contact from "./Contact";
 class Footer extends Component {
     render() {
         return (
-            <footer className="uk-section uk-section-secondary uk-padding-remove-bottom" data-uk-scrollspy="cls: uk-animation-fade uk-animtion-fast; offset-top: 100; delay: 100; hidden: true; repeat: true;">
-    			<div className="uk-container" data-uk-parallax="y: 200, -40; easing: 0;">
+            <footer className="uk-section uk-section-secondary uk-padding-remove-bottom"
+                data-uk-height-viewport="offset-top: true; offset-bottom: 1"
+                >
+    			<div className="uk-container uk-margin-medium-top" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 350">
                     <h2 className="uk-text-center section-title-primary">Free consultation from our experts</h2>
                     <p className="uk-align-center uk-text-center uk-width-1-2@s uk-margin-large-bottom">
                         Simply fill in the form, it’s that easy. An MC+A Associate Expert will reach out to you within 24 hours.
@@ -19,39 +21,11 @@ class Footer extends Component {
     					</div>
                         <div className="uk-width-2-3@m">
                             <Contact />
-                            <div className="uk-child-width-1-3@m" data-uk-grid>
-            					<div>
-            						<h5>PRODUCTS</h5>
-            						<ul className="uk-list">
-                                        <li>Insights Search</li>
-            							<li>After Market Search</li>
-            							<li>Machine Learning</li>
-            							<li>Data Analytics</li>
-            						</ul>
-            					</div>
-            					<div>
-            						<h5>OUR COMPANY</h5>
-            						<ul className="uk-list">
-            							<li>Team</li>
-            							<li>Work</li>
-            							<li>Culture</li>
-            							<li>Contact Us</li>
-            						</ul>
-            					</div>
-            					<div>
-            						<h5>OFFICES IN</h5>
-            						<ul className="uk-list">
-            							<li>Chicago, USA</li>
-            							<li>Rio De Jeneiro, Brazil</li>
-            							<li>Bangkok, Thailand</li>
-            						</ul>
-            					</div>
-                            </div>
                         </div>
     				</div>
     			</div>
 
-    			<div className="uk-text-center uk-padding uk-padding-remove-horizontal">
+    			<div className="uk-text-center uk-padding-small uk-padding-remove-horizontal">
     				<span className="uk-text-small uk-text-muted">&copy; 2019 <a href="https://www.mcplusa.com">MC+A</a></span>
     			</div>
     		</footer>

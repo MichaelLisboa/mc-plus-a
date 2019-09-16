@@ -11,11 +11,6 @@ class Home extends Component {
         return (
             <>
             <Hero />
-            <Content />
-            <Whitepaper />
-            <Webinar />
-            <Partners />
-            <Footer />
             </>
         )
     }

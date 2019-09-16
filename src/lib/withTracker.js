@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('UA-137372309-1');
+// ADD UA CODE HERE
+ReactGA.initialize('*');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 export default function withTracker (WrappedComponent, options = {}) {
