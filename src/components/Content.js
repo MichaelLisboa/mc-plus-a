@@ -12,7 +12,7 @@ class Content extends Component {
                 >
     			<div className="uk-container uk-height-1-1">
     				<div className="uk-margin">
-    					<div style={{borderRight: "5px solid #3D9DD6"}} className="uk-grid uk-flex-middle" data-uk-grid>
+    					<div className="uk-grid uk-flex-middle" data-uk-grid>
     						<div style={{height: "400px !important", minHeight: "400px"}} className="uk-flex uk-flex-middle uk-width-1-3@m uk-background-primary">
                                 <p className="big-message-dark uk-h1">E-Commerce Giants help customers find the right products fast</p>
     						</div>
@@ -35,7 +35,7 @@ class Content extends Component {
     						</div>
     					</div>
 
-    					<div style={{borderLeft: "5px solid #3D9DD6"}} className="uk-grid uk-flex-middle" data-uk-grid>
+    					<div className="uk-grid uk-flex-middle" data-uk-grid>
     						<div className="uk-width-2-3@m">
     							<p className="subtitle-text">
     								Customers expect highly personalized recommendations when shopping online.  Using artificial intelligence generates laser-focused recommendations that can dynamically boost search and browse revenue. Delivering tailored content using dynamic signals instead of rigid rule sets.
@@ -46,7 +46,7 @@ class Content extends Component {
     						</div>
     					</div>
 
-    					<div style={{borderRight: "5px solid #3D9DD6"}} className="uk-grid uk-flex-middle" data-uk-grid>
+    					<div className="uk-grid uk-flex-middle" data-uk-grid>
     						<div style={{height: "400px !important", minHeight: "400px"}} className="uk-flex uk-flex-middle uk-width-1-3@m uk-background-success">
                                 <p className="big-message-dark uk-h1">E-Commerce Giants increase revenue per visitor</p>
     						</div>
