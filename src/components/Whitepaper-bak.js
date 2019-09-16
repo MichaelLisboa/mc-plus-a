@@ -4,7 +4,10 @@ import { Button } from "./presentation/Button";
 class Whitepaper extends Component {
     render() {
         return (
-            <section className="uk-section uk-section-muted uk-section-large uk-animation-fade" data-uk-height-viewport="true">
+            <section className="uk-section uk-section-muted uk-section-large"
+                data-uk-height-viewport="true"
+                data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: > *; delay: 250"
+                >
     			<div className="uk-container uk-height-1-1">
     				<div className="uk-grid uk-child-width-1-2@l uk-flex-middle">
     					<div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: > *; delay: 250">

@@ -4,7 +4,7 @@ import Contact from "./Contact";
 class Footer extends Component {
     render() {
         return (
-            <footer className="uk-section uk-section-secondary uk-padding-remove-bottom"
+            <footer className="uk-section uk-section-secondary uk-padding-remove-bottom uk-animation-fade"
                 data-uk-height-viewport="offset-top: true; offset-bottom: 1"
                 >
     			<div className="uk-container uk-margin-medium-top" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; delay: 350">

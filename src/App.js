@@ -25,16 +25,16 @@ export default function App() {
             transform: 'translate3d(0, 0%, 0)'
         },
         from: {
-            transform: 'translate3d(0, 80%, 0)',
-            opacity: 0
+            opacity: 0,
+            transform: 'translate3d(0, 80%, 0)'
         },
         enter: {
-            transform: 'translate3d(0, 0, 0)',
-            opacity: 1
+            opacity: 1,
+            transform: 'translate3d(0, 0, 0)'
         },
         leave: {
-            transform: 'translate3d(0, -90%, 0)',
-            opacity: 0
+            opacity: 0,
+            transform: 'translate3d(0, -90%, 0)'
         }
 	});
 
