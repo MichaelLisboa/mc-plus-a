@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Input } from "./presentation/Input";
-import { Button } from "./presentation/Button";
+import EmailForm from "./presentation/EmailForm";
 
 import Content from "./Content";
 import Partners from "./Partners";
@@ -28,21 +27,7 @@ class Hero extends Component {
 						<h6 className="uk-margin-small-bottom" style={{fontWeight: "600", color: "#3D9DD6"}}>Supercharge your business</h6>
 						<h1 style={{fontSize: "3em !important"}} className="section-title-primary uk-margin-remove-top">Your parts business can be an <span className="uk-text-nowrap">e-commerce</span> giant.</h1>
 						<p className="subtitle-text">Get in touch and we discuss how we have help businesses like yours drive more revenue through better search.</p>
-                        <form className="uk-grid-small" data-uk-grid>
-                            <div className="uk-width-1-2@s">
-                                <Input
-                                    type="text"
-                                    placeholder="Email address"
-                                    size="large"
-                                    format="default"
-                                    />
-                            </div>
-                            <div className="uk-width-1-2@s">
-                                <Button type="text" size="large" format="primary">
-                                    LEARN MORE
-                                </Button>
-                            </div>
-                        </form>
+                        <EmailForm />
 					</div>
 				</div>
                 <div className="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center uk-visible@m">

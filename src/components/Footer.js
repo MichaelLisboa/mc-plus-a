@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contact from "./Contact";
+import ContactForm from "./presentation/ContactForm";
 import PageStyles from "./presentation/PageStyles";
 
 class Footer extends Component {
@@ -19,7 +19,7 @@ class Footer extends Component {
 							<a href="/" className="uk-icon-button uk-margin-small-right" data-uk-icon="instagram">&nbsp;</a>
     					</div>
                         <div className="uk-width-2-3@m">
-                            <Contact />
+                            <ContactForm />
                         </div>
     				</div>
     			</div>
