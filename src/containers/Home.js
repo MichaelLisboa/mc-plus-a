@@ -1,12 +1,19 @@
 import React, { Component } from "react";
-import Hero from "../components/Hero";
+import Hero from "./Hero";
+import Content from "./Content";
+import Partners from "./Partners";
+import About from "./About";
+import PageStyles from "../components/presentation/PageStyles";
 
 class Home extends Component {
     render() {
         return (
-            <>
-            <Hero />
-            </>
+            <div style={PageStyles} className="uk-background-default">
+                <Hero />
+                <Content />
+                <Partners />
+                <About />
+            </div>
         )
     }
 }

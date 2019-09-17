@@ -4,10 +4,10 @@ import {useTransition, animated} from "react-spring";
 
 import withTracker from "./lib/withTracker";
 import Home from "./containers/Home";
-import Content from "./components/Content";
-import Whitepaper from "./components/Whitepaper";
-import Webinar from "./components/Webinar";
-import Footer from "./components/Footer";
+import Content from "./containers/Content";
+import Whitepaper from "./containers/Whitepaper";
+import Webinar from "./containers/Webinar";
+import About from "./containers/About";
 
 import "./css/normalize.css";
 import "./css/Main.css";
@@ -28,7 +28,7 @@ export default function App() {
     return transitions.map(({item, props, key}) => (
         <animated.div key={key} style={props}>
             <Switch location={item}>
-                <Route path="/contact" component={withTracker(Footer)} />
+                <Route path="/contact" component={withTracker(About)} />
                 <Route path="/whitepaper" component={withTracker(Whitepaper)} />
                 <Route path="/webinar" component={withTracker(Webinar)} />
                 <Route path="/services" component={withTracker(Content)} />

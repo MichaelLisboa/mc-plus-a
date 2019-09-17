@@ -3,6 +3,7 @@ import EmailForm from "./presentation/EmailForm";
 
 import Content from "./Content";
 import Partners from "./Partners";
+import About from "./About";
 import Footer from "./Footer";
 import PageStyles from "./presentation/PageStyles";
 
@@ -36,7 +37,7 @@ class Hero extends Component {
 			</div>
             <Content />
             <Partners />
-            <Footer />
+            <About />
             </div>
         )
     }

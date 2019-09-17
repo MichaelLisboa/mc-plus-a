@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import ContactForm from "./presentation/ContactForm";
-import PageStyles from "./presentation/PageStyles";
+import ContactForm from "../components/presentation/ContactForm";
+import PageStyles from "../components/presentation/PageStyles";
+import Footer from "./Footer";
 
-class Footer extends Component {
+class About extends Component {
     render() {
         return (
-            <footer style={PageStyles} className="uk-section uk-section-secondary uk-padding-remove-bottom">
+            <>
+            <section style={PageStyles} className="uk-section uk-section-secondary uk-padding-remove-bottom">
     			<div className="uk-container uk-margin-medium-top">
                     <h2 className="uk-text-center section-title-primary">Free consultation from our experts</h2>
                     <p className="uk-align-center uk-text-center uk-width-1-2@s uk-margin-large-bottom">
@@ -23,13 +25,11 @@ class Footer extends Component {
                         </div>
     				</div>
     			</div>
-
-    			<div className="uk-text-center uk-padding-small uk-padding-remove-horizontal">
-    				<span className="uk-text-small uk-text-muted">&copy; 2019 <a href="https://www.mcplusa.com">MC+A</a></span>
-    			</div>
-    		</footer>
+                <Footer />
+    		</section>
+            </>
         )
     }
 }
 
-export default Footer;
+export default About;

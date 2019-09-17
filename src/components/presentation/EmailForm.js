@@ -28,8 +28,8 @@ class EmailForm extends Component {
                 onSubmit={this.handleSubmit}
                 render={({ handleChange, handleBlur, values, errors, touched, isSubmitting, validateForm }) => (
                     <Form>
-                        <fieldset className="uk-fieldset">
-                            <div className="uk-margin">
+                        <div className="uk-grid-small" data-uk-grid>
+                            <div className="uk-width-1-2@s">
                                 <Field
                                     onChange={handleChange}
                                     onBlur={handleBlur}
@@ -41,8 +41,10 @@ class EmailForm extends Component {
                                     required
                                 />
                             </div>
-                            <Button type="submit" size="large" format="primary" disabled={isSubmitting}>Submit</Button>
-                        </fieldset>
+                            <div className="uk-width-1-2@s">
+                                <Button type="submit" size="large" format="primary" disabled={isSubmitting}>Learn more</Button>
+                            </div>
+                        </div>
                     </Form>
                 )}
             />

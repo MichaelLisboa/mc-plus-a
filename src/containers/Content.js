@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { AnchorButton } from "./presentation/Button";
+import { AnchorButton } from "../components/presentation/Button";
 
 import paperPlane from "../images/Icons/Paperplane.png"
 

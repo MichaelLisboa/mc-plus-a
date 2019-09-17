@@ -127,8 +127,8 @@ class ContactForm extends Component {
                                 </label>
                             </div>
 
-                            <div className="uk-margin-top uk-text-right">
-                            <Button type="submit" size="large" format="primary" disabled={isSubmitting}>Submit</Button>
+                            <div className="uk-margin-medium-top uk-text-right">
+                                <Button type="submit" size="large" format="primary" disabled={isSubmitting}>Submit</Button>
                             </div>
                         </fieldset>
                     </Form>

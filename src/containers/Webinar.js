@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import PageStyles from "./presentation/PageStyles";
+import PageStyles from "../components/presentation/PageStyles";
+import Footer from "./Footer";
 
 import heroImage from "../images/hero-image.png";
 
 class Webinar extends Component {
     render() {
         return (
-            <section style={PageStyles} className="uk-cover-container">
+            <section style={PageStyles} className="uk-cover-container uk-height-1-1">
     			<img
                     src={heroImage}
                     alt=""
@@ -23,6 +24,7 @@ class Webinar extends Component {
     					</div>
     				</div>
     			</div>
+                <Footer />
     		</section>
         )
     }
