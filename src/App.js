@@ -20,22 +20,9 @@ export default function App() {
     const {location} = useRouter();
 
 	const transitions = useTransition(location, location => location.pathname, {
-        initial: {
-            // opacity: 1,
-            transform: 'translate3d(0, 0%, 0)'
-        },
-        from: {
-            opacity: 0,
-            transform: 'translate3d(0, 100%, 0)'
-        },
-        enter: {
-            opacity: 1,
-            transform: 'translate3d(0, 0%, 0)'
-        },
-        leave: {
-            opacity: 0,
-            transform: 'translate3d(0, -70%, 0)'
-        }
+        from: { opacity: 0, transform: 'translate3d(0, 80vh, 0)' },
+        enter: { opacity: 1, transform: 'translate3d(0, 0, 0)' },
+        leave: { opacity: 0, transform: 'translate3d(0, -50vh, 0)' },
 	});
 
     return transitions.map(({item, props, key}) => (

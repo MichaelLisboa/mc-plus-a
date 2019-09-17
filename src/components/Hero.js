@@ -5,14 +5,14 @@ import { Button } from "./presentation/Button";
 import Content from "./Content";
 import Partners from "./Partners";
 import Footer from "./Footer";
+import PageStyles from "./presentation/PageStyles";
 
-import heroImage from "../images/hero-image.png"
-import heroSrcImage from "../images/hero-image.png"
+import heroImage from "../images/hero-image.png";
 
 class Hero extends Component {
     render() {
         return (
-            <>
+            <div style={PageStyles} className="uk-background-default">
             <div className="uk-cover-container uk-flex uk-flex-middle uk-height-1-1"
                 data-uk-height-viewport="true">
                     <img
@@ -21,7 +21,6 @@ class Hero extends Component {
                         data-sizes="100vw"
                         data-uk-cover
                         data-uk-img
-                        data-uk-scrollspy="cls: uk-animation-fade; delay: 500"
                     />
 				<div className="uk-container uk-flex-auto top-container uk-position-relative uk-margin-large-bottom uk-margin-large-top uk-margin-small-top@m"
                     data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: div > *; delay: 250">
@@ -47,13 +46,13 @@ class Hero extends Component {
 					</div>
 				</div>
                 <div className="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center uk-visible@m">
-    				<a href="#content" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2"></a>
+    				<a href="#content" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2">&nbsp;</a>
     			</div>
 			</div>
             <Content />
             <Partners />
             <Footer />
-            </>
+            </div>
         )
     }
 }

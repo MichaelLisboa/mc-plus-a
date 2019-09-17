@@ -1,4 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export const Button = ({children, ...props}) =>
-    <button title="Learn More" className={`uk-button uk-button-${props.size} uk-button-${props.format}`}>{children}</button>
+    <button className={`uk-button uk-button-${props.size} uk-button-${props.format}`}>{children}</button>
+
+export const AnchorButton = ({children, ...props}) =>
+    <NavLink to={props.path} className={`uk-button uk-button-${props.size} uk-button-${props.format}`}>{children}</NavLink>

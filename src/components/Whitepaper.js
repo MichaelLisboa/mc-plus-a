@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import { Button } from "./presentation/Button";
+import PageStyles from "./presentation/PageStyles";
 
 class Whitepaper extends Component {
     render() {
         return (
-            <section className="uk-section uk-section-muted uk-section-large uk-animation-fade" data-uk-height-viewport="true">
+            <section style={PageStyles} className="uk-section uk-section-secondary uk=light uk-section-large">
     			<div className="uk-container uk-height-1-1">
     				<div className="uk-grid uk-child-width-1-2@l uk-flex-middle">
-    					<div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: > *; delay: 250">
+    					<div>
     						<h2 className="section-title-primary uk-margin-small-top uk-h1">Beating the big retailers at their own game</h2>
     						<p className="subtitle-text">
     							The massive global success of Amazon and other online retailers is built on a powerful, scalable search back end with many impactful key features. There’s no reason you can’t have all of the same features including:
@@ -23,7 +24,7 @@ class Whitepaper extends Component {
                                     Powerful clustering and classification algorithms that improve the search experience for your and customers
                                 </li>
                             </ul>
-    						<Button type="text" size="large" format="primary" data-uk-scrollspy-class="uk-animation-fade">
+    						<Button type="text" size="large" format="primary">
                                 LEARN MORE
                             </Button>
     					</div>

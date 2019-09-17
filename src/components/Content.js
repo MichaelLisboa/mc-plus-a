@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button } from "./presentation/Button";
+import { AnchorButton } from "./presentation/Button";
 
 import paperPlane from "../images/Icons/Paperplane.png"
 
@@ -26,10 +26,10 @@ class Content extends Component {
     							<div className="uk-grid" data-uk-grid>
     								<div className="uk-align-center uk-text-center">
     									<h4>Download Our Primer on How to Compete with Amazon.</h4>
-    									<Button type="text" size="large" format="primary">
+    									<AnchorButton type="text" size="large" format="primary" path="/whitepaper">
                                             <img className="uk-margin-small-right" src={paperPlane} height="24" width="24" alt="download whitepaper" />
                                             Download whitepaper
-                                        </Button>
+                                        </AnchorButton>
     								</div>
     							</div>
     						</div>
@@ -40,6 +40,15 @@ class Content extends Component {
     							<p className="subtitle-text">
     								Customers expect highly personalized recommendations when shopping online.  Using artificial intelligence generates laser-focused recommendations that can dynamically boost search and browse revenue. Delivering tailored content using dynamic signals instead of rigid rule sets.
     							</p>
+                                <div className="uk-grid" data-uk-grid>
+    								<div className="uk-align-center uk-text-center">
+    									<h4>See our webinar about personalized search experiences.</h4>
+    									<AnchorButton type="text" size="large" format="primary" path="/webinar">
+                                            <img className="uk-margin-small-right" src={paperPlane} height="24" width="24" alt="view webinar" />
+                                            View webinar
+                                        </AnchorButton>
+    								</div>
+    							</div>
     						</div>
                             <div style={{height: "400px !important", minHeight: "400px"}} className="uk-flex uk-flex-middle uk-width-1-3@m uk-background-warning">
                                 <p className="big-message-dark uk-h1">E-Commerce Giants provide personalized experiences customers expect.</p>
