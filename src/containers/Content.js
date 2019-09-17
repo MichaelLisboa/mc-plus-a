@@ -6,14 +6,14 @@ import paperPlane from "../images/Icons/Paperplane.png"
 class Content extends Component {
     render() {
         return (
-            <section className="uk-section uk-section-default"
+            <section id="#content" className="uk-section uk-section-default"
                 data-uk-height-viewport="true"
                 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: div > *; delay: 100"
                 >
     			<div className="uk-container uk-height-1-1">
     				<div className="uk-margin">
     					<div className="uk-grid uk-flex-middle" data-uk-grid>
-    						<div style={{height: "400px !important", minHeight: "400px"}} className="uk-flex uk-flex-middle uk-width-1-3@m uk-background-primary">
+    						<div style={{height: "400px", minHeight: "400px"}} className="uk-flex uk-flex-middle uk-width-1-3@m uk-background-primary">
                                 <p className="big-message-dark uk-h1">E-Commerce Giants help customers find the right products fast</p>
     						</div>
     						<div className="uk-width-2-3@m">

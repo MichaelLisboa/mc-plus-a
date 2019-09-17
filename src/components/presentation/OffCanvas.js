@@ -1,14 +1,10 @@
-import React, { useContext } from "react";
-import { NavLink, __RouterContext } from "react-router-dom";
-import logo from "../../images/MCA.svg"
-
-const useRouter = () => {
-  return useContext(__RouterContext)
-}
+import React from "react";
+import { NavLink } from "react-router-dom";
+import useRouter from "../../lib/UseRouter";
+import logo from "../../images/MCA.svg";
 
 const OffCanvas = () => {
     const {location} = useRouter();
-
     return (
         <div className="nav" data-uk-sticky="cls-active: uk-background-secondary uk-light; top: 5vh; animation: uk-animation-fade uk-hidden@s">
             <div className="uk-container uk-hidden@s">

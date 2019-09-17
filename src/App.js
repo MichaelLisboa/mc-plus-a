@@ -1,6 +1,7 @@
-import React, { useContext } from "react";
-import { Route, Switch, __RouterContext } from "react-router-dom";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 import {useTransition, animated} from "react-spring";
+import useRouter from "./lib/UseRouter";
 
 import withTracker from "./lib/withTracker";
 import Home from "./containers/Home";
@@ -11,10 +12,6 @@ import About from "./containers/About";
 
 import "./css/normalize.css";
 import "./css/Main.css";
-
-const useRouter = () => {
-  return useContext(__RouterContext)
-}
 
 export default function App() {
     const {location} = useRouter();
@@ -28,12 +25,11 @@ export default function App() {
     return transitions.map(({item, props, key}) => (
         <animated.div key={key} style={props}>
             <Switch location={item}>
-                <Route path="/contact" component={withTracker(About)} />
-                <Route path="/whitepaper" component={withTracker(Whitepaper)} />
-                <Route path="/webinar" component={withTracker(Webinar)} />
-                <Route path="/services" component={withTracker(Content)} />
-                <Route path="/home" component={withTracker(Home)} />
-                <Route path="/*" component={withTracker(Home)} />
+                <Route path="/contact" component={(About)} />
+                <Route path="/whitepaper" component={(Whitepaper)} />
+                <Route path="/webinar" component={(Webinar)} />
+                <Route path="/services" component={(Content)} />
+                <Route path="/" component={(Home)} />
             </Switch>
         </animated.div>
     )
