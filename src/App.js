@@ -2,8 +2,8 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {useTransition, animated} from "react-spring";
 import useRouter from "./lib/UseRouter";
-
 import withTracker from "./lib/withTracker";
+
 import Home from "./containers/Home";
 import Content from "./containers/Content";
 import Whitepaper from "./containers/Whitepaper";

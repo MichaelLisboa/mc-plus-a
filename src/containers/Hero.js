@@ -1,5 +1,5 @@
-import React from "react";
-import { animated, config, useTransition } from "react-spring";
+import React, { useRef } from "react";
+import { useSpring, useTransition, useChain, animated, config } from "react-spring";
 import EmailForm from "../components/presentation/EmailForm";
 import useRouter from "../lib/UseRouter";
 import heroImage from "../images/hero-image.png";
@@ -22,12 +22,23 @@ const Anim = props => {
 
 const Hero = props => {
     const { location } = useRouter();
-    const transitions = useTransition(location, (location) => location.pathname, {
-        from: { opacity: "0", transform: 'scale(5)' },
-        enter: {opacity: "1", transform: 'scale(1)' },
-        leave: { opacity: "0", transform: 'scale(3)' },
-        config: config.stiff,
+    const springRef = useRef();
+    useSpring({
+        ref: springRef,
+        delay: 250,
+        initial: { opacity: 0, transform: 'scale(0)' },
+        to: { opacity: 0, transform: 'scale(0)' }
     })
+
+    const transRef = useRef()
+    const transitions = useTransition(location, (location) => location.pathname, {
+        ref: transRef,
+        from: { opacity: 0, transform: 'scale(0)' },
+        enter: { opacity: 1, transform: 'scale(1)' },
+        leave: { opacity: 0, transform: 'scale(0)' },
+        config: config.stiff
+    });
+    useChain([springRef, transRef]);
 
     return (
         <div

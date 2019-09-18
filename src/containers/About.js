@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import ContactForm from "../components/presentation/ContactForm";
 import PageStyles from "../components/presentation/PageStyles";
+import useRouter from "../lib/UseRouter";
 import Footer from "./Footer";
 
-class About extends Component {
-    render() {
+const About = props => {
+        const { location } = useRouter();
         return (
-            <>
-            <section style={PageStyles} className="uk-section uk-section-secondary uk-padding-remove-bottom">
+            <section style={location.pathname !== '/' ? PageStyles : null} className="uk-section uk-section-secondary uk-padding-remove-bottom">
     			<div className="uk-container uk-margin-medium-top">
                     <h2 className="uk-text-center section-title-primary">Free consultation from our experts</h2>
                     <p className="uk-align-center uk-text-center uk-width-1-2@s uk-margin-large-bottom">
@@ -27,9 +27,7 @@ class About extends Component {
     			</div>
                 <Footer />
     		</section>
-            </>
         )
     }
-}
 
 export default About;
