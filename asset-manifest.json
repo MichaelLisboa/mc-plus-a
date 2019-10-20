@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/mc-plus-a/static/css/main.9f8e3720.chunk.css",
-    "main.js": "/mc-plus-a/static/js/main.75deff6d.chunk.js",
-    "main.js.map": "/mc-plus-a/static/js/main.75deff6d.chunk.js.map",
+    "main.css": "/mc-plus-a/static/css/main.9e055820.chunk.css",
+    "main.js": "/mc-plus-a/static/js/main.22e80108.chunk.js",
+    "main.js.map": "/mc-plus-a/static/js/main.22e80108.chunk.js.map",
     "runtime~main.js": "/mc-plus-a/static/js/runtime~main.eff9210a.js",
     "runtime~main.js.map": "/mc-plus-a/static/js/runtime~main.eff9210a.js.map",
-    "static/js/2.b9515695.chunk.js": "/mc-plus-a/static/js/2.b9515695.chunk.js",
-    "static/js/2.b9515695.chunk.js.map": "/mc-plus-a/static/js/2.b9515695.chunk.js.map",
+    "static/js/2.5a9b12e4.chunk.js": "/mc-plus-a/static/js/2.5a9b12e4.chunk.js",
+    "static/js/2.5a9b12e4.chunk.js.map": "/mc-plus-a/static/js/2.5a9b12e4.chunk.js.map",
     "index.html": "/mc-plus-a/index.html",
-    "precache-manifest.d0b4e6a26736c3dec4383905b935aba8.js": "/mc-plus-a/precache-manifest.d0b4e6a26736c3dec4383905b935aba8.js",
+    "precache-manifest.5c5ab41efc3ba108de8cc40e55c4e2d6.js": "/mc-plus-a/precache-manifest.5c5ab41efc3ba108de8cc40e55c4e2d6.js",
     "service-worker.js": "/mc-plus-a/service-worker.js",
-    "static/css/main.9f8e3720.chunk.css.map": "/mc-plus-a/static/css/main.9f8e3720.chunk.css.map",
+    "static/css/main.9e055820.chunk.css.map": "/mc-plus-a/static/css/main.9e055820.chunk.css.map",
     "static/media/MCA.svg": "/mc-plus-a/static/media/MCA.1cb7c8b5.svg",
-    "static/media/hero-image-webinar.png": "/mc-plus-a/static/media/hero-image-webinar.2a9199fd.png",
-    "static/media/hero-image.png": "/mc-plus-a/static/media/hero-image.c00cf926.png"
+    "static/media/conversions-callout.jpg": "/mc-plus-a/static/media/conversions-callout.63d9f693.jpg",
+    "static/media/hero-image.png": "/mc-plus-a/static/media/hero-image.c00cf926.png",
+    "static/media/tab-1.jpg": "/mc-plus-a/static/media/tab-1.f2968cd4.jpg",
+    "static/media/tab-2.jpg": "/mc-plus-a/static/media/tab-2.1e98ddf7.jpg",
+    "static/media/tab-3.jpg": "/mc-plus-a/static/media/tab-3.2d20275f.jpg",
+    "static/media/webinar.jpg": "/mc-plus-a/static/media/webinar.dd04d2b3.jpg",
+    "static/media/whitepaper.jpg": "/mc-plus-a/static/media/whitepaper.777a4f14.jpg"
   }
 }
