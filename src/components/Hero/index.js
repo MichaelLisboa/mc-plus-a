@@ -24,7 +24,7 @@ const Hero = props => {
         ref: springRef,
         delay: 250,
         initial: { opacity: 0, transform: 'scale(0)' },
-        to: { opacity: 0, transform: 'scale(0)' }
+        to: { opacity: 1, transform: 'scale(1)' }
     })
 
     const transRef = useRef()

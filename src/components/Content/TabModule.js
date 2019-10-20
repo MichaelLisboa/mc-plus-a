@@ -2,13 +2,13 @@ import React from "react";
 import { Card } from "../Card";
 import { AnchorButton } from "../Forms/Button";
 
-import conference_a from "../../images/hero-image-webinar.png";
-import conference_b from "../../images/hero-image-webinar.png";
-import conference_c from "../../images/hero-image-webinar.png";
+import tab_a from "../../images/tab-2.jpg";
+import tab_b from "../../images/tab-3.jpg";
+import tab_c from "../../images/tab-1.jpg";
 
 const TabModule = () =>
     <section
-        className="event-container"
+        className="tab-container uk-section-muted"
         data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; target: div > *;">
         <div className="uk-container">
             <Card className="uk-padding">
@@ -28,7 +28,7 @@ const TabModule = () =>
                             data-uk-grid
                             data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
                             <div>
-                                <img src={conference_a} data-src={conference_a} alt="" data-uk-img />
+                                <img src={tab_a} data-src={tab_a} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
                                 <h6>Search</h6>
@@ -45,7 +45,7 @@ const TabModule = () =>
                     <li>
                         <div className="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
                             <div>
-                                <img src={conference_b} data-src={conference_b} alt="" data-uk-img />
+                                <img src={tab_b} data-src={tab_b} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
                                 <h6>Browse</h6>
@@ -62,7 +62,7 @@ const TabModule = () =>
                     <li>
                         <div className="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
                             <div>
-                                <img src={conference_c} data-src={conference_c} alt="" data-uk-img />
+                                <img src={tab_c} data-src={tab_c} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
                                 <h6>Curate</h6>

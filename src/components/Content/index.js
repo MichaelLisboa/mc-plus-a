@@ -1,9 +1,9 @@
 import React from "react";
 import EmailForm from "../Forms/EmailForm";
+import ConversionsCallout from "./ConversionsCallout";
 import TabModule from "./TabModule";
 
 import "./Content.css";
-import heroImage from "../../images/hero-image.png";
 
 const Content = () =>
     <div id="#content" className="uk-section uk-section-default"
@@ -25,27 +25,11 @@ const Content = () =>
             <p>Amazon reports that 35% of their sales come from their recommendations systems.</p>
         </blockquote>
 
-        <section className="uk-section uk-margin-large uk-padding-large uk-section-muted">
-            <div className="uk-container">
-                <div className="uk-grid uk-child-width-1-2@l uk-flex-middle uk-flex-center">
-                    <div data-uk-scrollspy="cls: uk-animation-fade">
-                        <img src={heroImage} data-src={heroImage} data-uk-img alt="Image" />
-                    </div>
-                    <div style={{marginLeft: "-100px", backgroundColor: "#fff"}} className="uk-position-relative uk-box-shadow-medium uk-padding">
-                        <h2 className="uk-margin-small-top">Improve conversions and revenue with Recommendations</h2>
-                        <p className="subtitle-text">
-                            It’s not enough to give customers a search box and a list of options. We can help you improve your
-                            commerce experience so that you can offer real-time personalized shopping recommendations that increase
-                            customer retention and revenue per visitor (RPV)
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <ConversionsCallout />
 
         <TabModule />
 
-        <section className="uk-margin-large uk-section-muted uk-padding-large">
+        <section className="uk-padding-large">
             <div className="uk-container uk-container-small" data-uk-scrollspy-class="uk-animation-slide-bottom">
                 <h2 className="uk-margin-small-top">AI-powered e-Commerce </h2>
                 <p className="subtitle-text">
