@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Formik, Form, Field } from "formik";
-import { Button } from "./Button";
+import { Button } from "../Forms/Button";
 import * as Yup from "yup";
 
 const getSchema = () => Yup.object().shape({
@@ -17,7 +17,7 @@ const getSchema = () => Yup.object().shape({
         .required('Please enter your message'),
 });
 
-class ContactForm extends Component {
+class Contact extends Component {
 
     handleSubmit = data => {
         const body = {
@@ -138,4 +138,4 @@ class ContactForm extends Component {
     }
 }
 
-export default ContactForm;
+export default Contact;

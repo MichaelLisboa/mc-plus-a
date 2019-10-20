@@ -1,8 +1,10 @@
 import React from "react";
-import ContactForm from "../components/presentation/ContactForm";
-import PageStyles from "../components/presentation/PageStyles";
-import useRouter from "../lib/UseRouter";
-import Footer from "./Footer";
+import Contact from "../Contact";
+import PageStyles from "../UI/PageStyles";
+import useRouter from "../../lib/UseRouter";
+import Footer from "../Footer";
+
+import "./About.css";
 
 const About = props => {
         const { location } = useRouter();
@@ -21,7 +23,7 @@ const About = props => {
 							<a href="/" className="uk-icon-button uk-margin-small-right" data-uk-icon="instagram">&nbsp;</a>
     					</div>
                         <div className="uk-width-2-3@m">
-                            <ContactForm />
+                            <Contact />
                         </div>
     				</div>
     			</div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import useRouter from "../../lib/UseRouter";
-import logo from "../../images/MCA.svg";
+import useRouter from "../../../lib/UseRouter";
+import logo from "../../../images/MCA.svg";
 
 const NavMenu = () => {
     const {location} = useRouter();

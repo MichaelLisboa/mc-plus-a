@@ -1,17 +1,19 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import {useTransition, animated} from "react-spring";
-import useRouter from "./lib/UseRouter";
-import withTracker from "./lib/withTracker";
+import useRouter from "../../lib/UseRouter";
+import withTracker from "../../lib/withTracker";
 
-import Home from "./containers/Home";
-import Content from "./containers/Content";
-import Whitepaper from "./containers/Whitepaper";
-import Webinar from "./containers/Webinar";
-import About from "./containers/About";
+import Home from "../Home";
+import Content from "../Content";
+import Whitepaper from "../Whitepaper";
+import Webinar from "../Webinar";
+import About from "../About";
 
-import "./css/normalize.css";
-import "./css/Main.css";
+import "../../css/normalize.css";
+import "../../css/uikit.min.css";
+import "./App.css";
+import "../UI/UIStyles.css";
 
 export default function App() {
     const {location} = useRouter();
