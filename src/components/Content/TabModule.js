@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "../Card";
 import { AnchorButton } from "../Forms/Button";
 
-import tab_a from "../../images/tab-2.jpg";
+import tab_a from "../../images/nlp-detection.png";
 import tab_b from "../../images/tab-3.jpg";
 import tab_c from "../../images/tab-1.jpg";
 
