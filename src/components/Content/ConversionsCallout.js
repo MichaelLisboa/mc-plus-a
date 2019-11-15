@@ -1,6 +1,6 @@
 import React from "react";
 
-import image from "../../images/conversions-callout.jpg";
+import image from "../../images/recommendations.png";
 
 const TabModule = () =>
     <section className="uk-section uk-margin-large uk-padding-large">
