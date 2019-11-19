@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1eb8b70b2b55dbf7f7107cd0b2bafad",
+    "revision": "b330b17581a7a501a7990fd9e1c89783",
     "url": "/mc-plus-a/index.html"
   },
   {
-    "revision": "683789340bc2f49ae485",
+    "revision": "29ee6e445d658b6e2842",
     "url": "/mc-plus-a/static/css/main.9e055820.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mc-plus-a/static/js/2.5a9b12e4.chunk.js"
   },
   {
-    "revision": "683789340bc2f49ae485",
-    "url": "/mc-plus-a/static/js/main.22e80108.chunk.js"
+    "revision": "29ee6e445d658b6e2842",
+    "url": "/mc-plus-a/static/js/main.414a5fad.chunk.js"
   },
   {
     "revision": "9a5d8593a8e505b70859",
@@ -24,24 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mc-plus-a/static/media/MCA.1cb7c8b5.svg"
   },
   {
-    "revision": "63d9f693df17de8571fa68843d219f36",
-    "url": "/mc-plus-a/static/media/conversions-callout.63d9f693.jpg"
+    "revision": "11f02fa86aa1a78c67545313e55a4318",
+    "url": "/mc-plus-a/static/media/feedback.11f02fa8.png"
   },
   {
-    "revision": "c00cf9262f421bbe9fe573d2f5715b67",
-    "url": "/mc-plus-a/static/media/hero-image.c00cf926.png"
+    "revision": "e5a0edfbd4f6cb6205604185f667f66e",
+    "url": "/mc-plus-a/static/media/hero-image.e5a0edfb.png"
   },
   {
-    "revision": "f2968cd440d41c85c24e58cc05b66f65",
-    "url": "/mc-plus-a/static/media/tab-1.f2968cd4.jpg"
+    "revision": "3d14f71d879aaabebce63bc8bb299e7b",
+    "url": "/mc-plus-a/static/media/nlp-detection.3d14f71d.png"
   },
   {
-    "revision": "1e98ddf7df6d575da6f7fd28cd991819",
-    "url": "/mc-plus-a/static/media/tab-2.1e98ddf7.jpg"
+    "revision": "841c6f80353ebca26315a15faada90f9",
+    "url": "/mc-plus-a/static/media/recommendations.841c6f80.png"
   },
   {
-    "revision": "2d20275f45836ea03ac41d23a00390b0",
-    "url": "/mc-plus-a/static/media/tab-3.2d20275f.jpg"
+    "revision": "ef984ba90225576f12c2f78983eb1cb9",
+    "url": "/mc-plus-a/static/media/user-specific.ef984ba9.png"
   },
   {
     "revision": "dd04d2b311bef3c80a31873db6ce6e50",
