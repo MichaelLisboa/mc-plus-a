@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/mc-plus-a/static/css/main.9e055820.chunk.css",
-    "main.js": "/mc-plus-a/static/js/main.414a5fad.chunk.js",
-    "main.js.map": "/mc-plus-a/static/js/main.414a5fad.chunk.js.map",
+    "main.css": "/mc-plus-a/static/css/main.72d868f7.chunk.css",
+    "main.js": "/mc-plus-a/static/js/main.404f00b4.chunk.js",
+    "main.js.map": "/mc-plus-a/static/js/main.404f00b4.chunk.js.map",
     "runtime~main.js": "/mc-plus-a/static/js/runtime~main.eff9210a.js",
     "runtime~main.js.map": "/mc-plus-a/static/js/runtime~main.eff9210a.js.map",
-    "static/js/2.5a9b12e4.chunk.js": "/mc-plus-a/static/js/2.5a9b12e4.chunk.js",
-    "static/js/2.5a9b12e4.chunk.js.map": "/mc-plus-a/static/js/2.5a9b12e4.chunk.js.map",
+    "static/js/2.19cbb0a6.chunk.js": "/mc-plus-a/static/js/2.19cbb0a6.chunk.js",
+    "static/js/2.19cbb0a6.chunk.js.map": "/mc-plus-a/static/js/2.19cbb0a6.chunk.js.map",
     "index.html": "/mc-plus-a/index.html",
-    "precache-manifest.2cda638ad7dbfc3599a89917b9d6061c.js": "/mc-plus-a/precache-manifest.2cda638ad7dbfc3599a89917b9d6061c.js",
+    "precache-manifest.e2dde491db19ba70061a4e87235432c2.js": "/mc-plus-a/precache-manifest.e2dde491db19ba70061a4e87235432c2.js",
     "service-worker.js": "/mc-plus-a/service-worker.js",
-    "static/css/main.9e055820.chunk.css.map": "/mc-plus-a/static/css/main.9e055820.chunk.css.map",
+    "static/css/main.72d868f7.chunk.css.map": "/mc-plus-a/static/css/main.72d868f7.chunk.css.map",
     "static/media/MCA.svg": "/mc-plus-a/static/media/MCA.1cb7c8b5.svg",
     "static/media/feedback.png": "/mc-plus-a/static/media/feedback.11f02fa8.png",
     "static/media/hero-image.png": "/mc-plus-a/static/media/hero-image.e5a0edfb.png",
+    "static/media/lucentworks-appstudio.png": "/mc-plus-a/static/media/lucentworks-appstudio.c3a6036a.png",
+    "static/media/lucentworks-fusionai.png": "/mc-plus-a/static/media/lucentworks-fusionai.3a18b149.png",
+    "static/media/lucentworks-fusionserver.png": "/mc-plus-a/static/media/lucentworks-fusionserver.ec50b729.png",
     "static/media/nlp-detection.png": "/mc-plus-a/static/media/nlp-detection.3d14f71d.png",
     "static/media/recommendations.png": "/mc-plus-a/static/media/recommendations.841c6f80.png",
     "static/media/user-specific.png": "/mc-plus-a/static/media/user-specific.ef984ba9.png",
-    "static/media/webinar.jpg": "/mc-plus-a/static/media/webinar.dd04d2b3.jpg",
     "static/media/whitepaper.jpg": "/mc-plus-a/static/media/whitepaper.777a4f14.jpg"
   }
 }
