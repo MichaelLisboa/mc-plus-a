@@ -1,29 +1,46 @@
 import React from "react";
 
-import attivioLogo from "../../images/Logos/attivio-partners.png";
-import coveoLogo from "../../images/Logos/coveo-partners.png";
-import elasticLogo from "../../images/Logos/elastic-partners.png";
+import serverLogo from "../../images/Logos/lucentworks-fusionserver.png";
+import aiLogo from "../../images/Logos/lucentworks-fusionai.png";
+import appstudioLogo from "../../images/Logos/lucentworks-appstudio.png";
 import lucidLogo from "../../images/Logos/lucidworks-partners.png";
+import "./Partners.css";
 
 const Partners = () =>
-    <div className="uk-section uk-section-small uk-section-default">
+    <section className="partners-section uk-section uk-section-small uk-section-default uk-margin-large-bottom">
         <div className="uk-container uk-container-small">
-            <h2 className="uk-text-center">Our Partners</h2>
-            <div className="uk-grid uk-child-width-1-4 uk-child-width-expand@m logos-grid" data-uk-grid data-uk-scrollspy="cls: uk-animation-scale-down; target: > div > img; delay: 500">
+            <div className="uk-display-block uk-width-1-1 uk-text-center uk-margin-bottom">
+                <img
+                    src={lucidLogo}
+                    alt="LucidWorks"
+                     />
+             </div>
+             <div className="uk-width-1-1 uk-child-width-1-3@m" data-uk-grid>
                 <div>
-                    <img src={attivioLogo} data-src={attivioLogo} data-uk-img alt="Attivio" />
+                    <img
+                        src={serverLogo}
+                        alt="LucidWorks Fusion Server"
+                         />
+                    <p className="uk-h5 uk-padding uk-margin-remove-vertical uk-padding-remove-vertical">Index millions of parts and fitments and serve thousands of queries per second.</p>
                 </div>
                 <div>
-                    <img src={coveoLogo} data-src={coveoLogo} data-uk-img alt="Coveo" />
+                    <img
+                        src={aiLogo}
+                        alt="LucidWorks Fusion AI"
+                        data-uk-image
+                         />
+                    <p className="uk-h5 uk-padding uk-margin-remove-vertical uk-padding-remove-vertical">Us AI to provide personalized shopping experiences to every user.</p>
                 </div>
                 <div>
-                    <img src={elasticLogo} data-src={elasticLogo} data-uk-img alt="Elastic" />
+                    <img
+                        src={appstudioLogo}
+                        alt="LucidWorks App Studio"
+                        data-uk-image
+                         />
+                    <p className="uk-h5 uk-padding uk-margin-remove-vertical uk-padding-remove-vertical">Rapidly build custom commerce experiences with modular UI components for web and mobile.</p>
                 </div>
-                <div>
-                    <img src={lucidLogo} data-src={lucidLogo} data-uk-img alt="LucidWorks" />
-                </div>
-            </div>
+             </div>
         </div>
-    </div>
+    </section>
 
 export default Partners;

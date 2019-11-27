@@ -28,8 +28,7 @@ export default function App() {
         <animated.div key={key} style={props}>
             <Switch location={item}>
                 <Route path="/contact" component={(About)} />
-                <Route path="/whitepaper" component={(Whitepaper)} />
-                <Route path="/webinar" component={(Webinar)} />
+                <Route path="/solution" component={(Webinar)} />
                 <Route path="/services" component={(Content)} />
                 <Route path="/" component={(Home)} />
             </Switch>

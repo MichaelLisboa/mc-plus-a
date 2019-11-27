@@ -9,17 +9,6 @@ const Content = () =>
     <div id="#content" className="uk-section uk-section-default"
         data-uk-height-viewport="true"
         >
-        <section className="uk-container uk-container-small uk-margin-large-bottom">
-            <p className="uk-text-lead">
-                Acquiring traffic in a competitive market like aftermarket auto parts is expensive.
-                You can’t afford to lose revenue from converting visitors into customers when they go
-                somewhere else because they can’t find the product they are looking for. AI-powered search
-                can give your site similar search and personalization features of e-commerce giants like Amazon,
-                helping you keep more customers on your site and buying from you.
-            </p>
-            <p className="subtitle-text">Get in touch with us today to schedule a demo.</p>
-            <EmailForm />
-        </section>
 
         <blockquote className="uk-h2 uk-text-center uk-text-muted uk-container uk-container-small uk-margin-large-bottom" cite="#">
             <p>Amazon reports that 35% of their sales come from their recommendations systems.</p>
@@ -29,13 +18,12 @@ const Content = () =>
 
         <TabModule />
 
-        <section className="uk-padding-large">
+        <section className="uk-margin-medium-top">
             <div className="uk-container uk-container-small" data-uk-scrollspy-class="uk-animation-slide-bottom">
-                <h2 className="uk-margin-small-top">AI-powered e-Commerce </h2>
+                <h2 className="uk-margin-small-top">AI-powered e-Commerce</h2>
                 <p className="subtitle-text">
-                    Major online retailers built their success on a powerful, scalable search back end with
-                    many impactful key features. These features are available for you to take advantage of
-                    today, including:
+                    Major online retailers built their success on a powerful, scalable search back end with many impactful
+                    key features. These features are available for you to take advantage of today, including:
                 </p>
                 <ul className="uk-list">
                     <li>Indexing large and complex data catalogs with fitment</li>

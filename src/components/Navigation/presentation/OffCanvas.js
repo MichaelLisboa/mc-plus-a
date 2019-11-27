@@ -28,7 +28,7 @@ const OffCanvas = () => {
                                 <NavLink to={`/whitepaper`} data-uk-icon="icon: list; ratio: 0.9;"></NavLink>
                             </li>
                             <li className="uk-padding-remove">
-                                <NavLink to={`/webinar`} data-uk-icon="icon: video-camera; ratio: 0.9;"></NavLink>
+                                <NavLink to={`/solution`} data-uk-icon="icon: video-camera; ratio: 0.9;"></NavLink>
                             </li>
                             <li className="uk-padding-remove">
                                 <NavLink to={`/contact`} data-uk-icon="icon: commenting; ratio: 0.8;"></NavLink>

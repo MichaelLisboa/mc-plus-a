@@ -1,0 +1,11 @@
+div.partner-products {
+  border: 3px solid blue;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.partner-products > img {
+  object-fit: contain;
+  object-position: 50% 50%;
+}

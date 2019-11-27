@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import { useSpring, useTransition, useChain, animated, config } from "react-spring";
 import useRouter from "../../lib/UseRouter";
 import heroImage from "../../images/hero-image.png";
@@ -11,7 +12,16 @@ const Anim = props => {
             style={{ ...props }}
             className="uk-width-3-5@s uk-width-1-3@l">
             <h6 className="uk-margin-small-bottom" style={{fontWeight: "600", color: "#3D9DD6"}}>Users can buy what they can’t find</h6>
-            <p className="section-title-primary uk-h2 uk-margin-remove-top">Unleash your <span className="uk-text-nowrap">e-commerce</span> potential with AI-powered Search and Merchandising.</p>
+            <p className="section-title-primary uk-h2 uk-margin-remove-top">Unleash your <span className="uk-text-nowrap">e-commerce</span>
+                potential with AI-powered Search and Merchandising</p>
+            <p>Acquiring traffic in a competitive market like aftermarket auto parts is expensive.  You can’t afford to lose revenue from
+                converting visitors into customers when they go somewhere else because they can’t find the product they are looking for.
+                AI-powered search can give your site similar search and personalization features of e-commerce giants like Amazon,
+                helping you keep more customers on your site and buying from you.  Get in touch with us today to schedule a demo.</p>
+            <Link
+                to={"/contact"}>
+                Schedule a demo
+            </Link>
         </animated.div>
         ))
     )
