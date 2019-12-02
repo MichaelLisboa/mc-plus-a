@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mc-plus-a/static/css/main.832faef7.chunk.css",
-    "main.js": "/mc-plus-a/static/js/main.9f4b8ada.chunk.js",
-    "main.js.map": "/mc-plus-a/static/js/main.9f4b8ada.chunk.js.map",
+    "main.js": "/mc-plus-a/static/js/main.8a9c5858.chunk.js",
+    "main.js.map": "/mc-plus-a/static/js/main.8a9c5858.chunk.js.map",
     "runtime~main.js": "/mc-plus-a/static/js/runtime~main.eff9210a.js",
     "runtime~main.js.map": "/mc-plus-a/static/js/runtime~main.eff9210a.js.map",
-    "static/js/2.3bc2359d.chunk.js": "/mc-plus-a/static/js/2.3bc2359d.chunk.js",
-    "static/js/2.3bc2359d.chunk.js.map": "/mc-plus-a/static/js/2.3bc2359d.chunk.js.map",
+    "static/js/2.3ea2362f.chunk.js": "/mc-plus-a/static/js/2.3ea2362f.chunk.js",
+    "static/js/2.3ea2362f.chunk.js.map": "/mc-plus-a/static/js/2.3ea2362f.chunk.js.map",
     "index.html": "/mc-plus-a/index.html",
-    "precache-manifest.eddc69fb403e46e579bbef6a61aace6c.js": "/mc-plus-a/precache-manifest.eddc69fb403e46e579bbef6a61aace6c.js",
+    "precache-manifest.8aab0548318130f77143568b661af1b3.js": "/mc-plus-a/precache-manifest.8aab0548318130f77143568b661af1b3.js",
     "service-worker.js": "/mc-plus-a/service-worker.js",
     "static/css/main.832faef7.chunk.css.map": "/mc-plus-a/static/css/main.832faef7.chunk.css.map",
     "static/media/MCA.svg": "/mc-plus-a/static/media/MCA.1cb7c8b5.svg",
@@ -18,7 +18,10 @@
     "static/media/lucentworks-fusionai.png": "/mc-plus-a/static/media/lucentworks-fusionai.3a18b149.png",
     "static/media/lucentworks-fusionserver.png": "/mc-plus-a/static/media/lucentworks-fusionserver.ec50b729.png",
     "static/media/nlp-detection.png": "/mc-plus-a/static/media/nlp-detection.3d14f71d.png",
+    "static/media/personalized.png": "/mc-plus-a/static/media/personalized.a74ad3bb.png",
+    "static/media/predictive-autocomplete.png": "/mc-plus-a/static/media/predictive-autocomplete.54aaddf0.png",
     "static/media/recommendations.png": "/mc-plus-a/static/media/recommendations.841c6f80.png",
+    "static/media/user-intent.png": "/mc-plus-a/static/media/user-intent.54c8c00e.png",
     "static/media/user-specific.png": "/mc-plus-a/static/media/user-specific.ef984ba9.png",
     "static/media/whitepaper.jpg": "/mc-plus-a/static/media/whitepaper.777a4f14.jpg"
   }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66b7a0b9829d743f634a9b755e152f83",
+    "revision": "097ff9f78a61f2fec012464af5b85172",
     "url": "/mc-plus-a/index.html"
   },
   {
-    "revision": "cd83b9f661110bd5ff52",
+    "revision": "79db6a52dccd59756852",
     "url": "/mc-plus-a/static/css/main.832faef7.chunk.css"
   },
   {
-    "revision": "79442ae31e77ff482f44",
-    "url": "/mc-plus-a/static/js/2.3bc2359d.chunk.js"
+    "revision": "a7751046d71a69496c9e",
+    "url": "/mc-plus-a/static/js/2.3ea2362f.chunk.js"
   },
   {
-    "revision": "cd83b9f661110bd5ff52",
-    "url": "/mc-plus-a/static/js/main.9f4b8ada.chunk.js"
+    "revision": "79db6a52dccd59756852",
+    "url": "/mc-plus-a/static/js/main.8a9c5858.chunk.js"
   },
   {
     "revision": "9a5d8593a8e505b70859",
@@ -48,8 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mc-plus-a/static/media/nlp-detection.3d14f71d.png"
   },
   {
+    "revision": "a74ad3bb6c7db0ab9318efa1d49c170c",
+    "url": "/mc-plus-a/static/media/personalized.a74ad3bb.png"
+  },
+  {
+    "revision": "54aaddf0b935b151255dd170672a1bed",
+    "url": "/mc-plus-a/static/media/predictive-autocomplete.54aaddf0.png"
+  },
+  {
     "revision": "841c6f80353ebca26315a15faada90f9",
     "url": "/mc-plus-a/static/media/recommendations.841c6f80.png"
+  },
+  {
+    "revision": "54c8c00ea9d765eb7b32eecd0b12168e",
+    "url": "/mc-plus-a/static/media/user-intent.54c8c00e.png"
   },
   {
     "revision": "ef984ba90225576f12c2f78983eb1cb9",
