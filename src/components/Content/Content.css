@@ -19,4 +19,6 @@ section.tab-container {
 
 blockquote p {
   font-family: "Georgia", "Garamond", serif !important;
+  padding-left: 48px;
+  padding-right: 48px;
 }

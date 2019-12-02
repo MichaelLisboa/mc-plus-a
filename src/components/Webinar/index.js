@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "../Forms/Button";
 import About from "../About";
 import PageStyles from "../UI/PageStyles";
 
 import image from "../../images/whitepaper.jpg";
+import predictive from "../../images/predictive-autocomplete.png";
+import intent from "../../images/user-intent.png";
+import personalized from "../../images/personalized.png";
 import "./Webinar.css";
 
 const Webinar = () =>
@@ -26,7 +30,8 @@ const Webinar = () =>
         </div>
         <section className="uk-margin-large-top">
             <blockquote className="uk-h2 uk-text-center uk-text-muted uk-container uk-container-small uk-margin-large-bottom" cite="#">
-                <p>“Sellers that personalize customer experience see greater levels of customer engagement and higher retention.”</p>
+                <p>“Sellers that personalize customer experience see greater levels of customer engagement and higher retention.”
+                <small className="uk-text-small uk-display-inline-block uk-margin-small-left"> - Gartner 2018</small></p>
             </blockquote>
             <div className="uk-container uk-container-small">
                 <p>Amazon, with it highly personalized shopping experience, seems to have a considerable advantage in the e-commerce area.
@@ -42,7 +47,7 @@ const Webinar = () =>
         <section className="uk-margin">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
                 <div className="">
-                    <p>Every customer shopping experience in your store can be a personalized journey that delivers relevant product
+                    <p className="subtitle-text">Every customer shopping experience in your store can be a personalized journey that delivers relevant product
                         recommendations your customers have come to expect from other shopping experiences.</p>
                     <p>With recent advancements in commercial software, particularly in artificial intelligence (AI) and machine learning (ML),
                         the technology that Amazon has spent billions on is available for a fraction of the cost.  This advancement allows you to
@@ -54,43 +59,62 @@ const Webinar = () =>
         </section>
         <section className="uk-margin">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
-                <h3>What does this Solution Look Like?</h3>
+                <h3 className="uk-heading-line uk-text-center"><span>What does this Solution Look Like?</span></h3>
             </div>
         </section>
-        <section className="uk-margin">
+        <section className="uk-margin-large">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
                 <div className="">
-                    <p className="uk-h4 uk-margin-remove">It has Predictive Autocomplete</p>
+                    <p className="uk-h4">It has Predictive Autocomplete</p>
                     <p>With a power autocomplete, you can help suggest your users to highly probable search queries or refinements. Here you can see a
                         search by the department based on the prediction that the user is looking for an iPod touch.</p>
+                    <img
+                        src={predictive}
+                        alt="Predictive autocomplete"
+                        className="uk-border-rounded"
+                        data-uk-img />
                 </div>
             </div>
         </section>
-        <section className="uk-margin">
+        <section className="uk-margin-large">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
                 <div className="">
-                    <p className="uk-h4 uk-margin-remove">It understands the users Intent</p>
+                    <p className="uk-h4">It understands the users Intent</p>
                     <p>You can infer what the user is searching for (i.e OEM or VIN search) by classifying the search that the user submits. You can dynamically
                     create relevant facet fields that contain categories relating to the query and tune the query based on that. </p>
-
+                    <img
+                        src={intent}
+                        alt="Understand user intent"
+                        className="uk-border-rounded"
+                        data-uk-img />
                 </div>
             </div>
         </section>
-        <section className="uk-margin">
+        <section className="uk-margin-large">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
                 <div className="">
-                    <p className="uk-h4 uk-margin-remove">It provides Personalized Recommendations</p>
+                    <p className="uk-h4">It provides Personalized Recommendations</p>
                     <p>You can personalize and recommend items (i.e. other parts) that are related to the parts that they are looking at our related to the users’ behavior.</p>
+                    <img
+                        src={personalized}
+                        alt="Personalized recommendations"
+                        className="uk-border-rounded"
+                        data-uk-img />
                 </div>
             </div>
         </section>
         <section className="uk-margin-medium uk-margin-large-bottom">
             <div className="uk-container uk-container-small" data-uk-scrollspy-class="uk-animation-slide-bottom">
                 <h3 className="uk-margin-small-top">Ready to personalize?</h3>
-                <p className="subtitle-text">
+                <p>
                     Today’s e-commerce leaders are elevating the customer experience with personalized on-page engagement, AI-powered recommendations, and much more. MC+A has the technical
                     expertise and experience to help you expand revenue opportunities using state of the art technology.
                 </p>
+                <Link
+                    to="/contact"
+                    className="uk-button uk-button-large uk-button-primary uk-border-rounded">
+                    Schedule a demo <span uk-icon="icon: arrow-right; ratio: 1.5" />
+                </Link>
             </div>
         </section>
         <About />

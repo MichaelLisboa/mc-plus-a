@@ -2,19 +2,28 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import useRouter from "../../../lib/UseRouter";
 import logo from "../../../images/MCA.svg";
+import lucidLogo from "../../../images/Logos/lucidworks-partners.png";
 
 import "./Navigation.css";
 
 const NavMenu = () => {
     const {location} = useRouter();
     return (
-        <div className="navbar-container uk-visible@m" data-uk-sticky>
+        <div className="navbar-container uk-visible@s" data-uk-sticky>
             <nav className="uk-navbar-container" data-uk-navbar>
                 <div className="uk-navbar-left">
                     <div className="uk-navbar-item">
                         {location.pathname === '/' ?
-                        <img src={logo} width="150px" alt="MC+A Logo" data-uk-image />
-                        : <NavLink to={`/`}><img src={logo} width="150px" alt="MC+A Logo" data-uk-image /></NavLink>
+                        <div className="uk-text-nowrap">
+                            <img className="uk-margin-small-right" src={logo} width="80px" alt="MC+A Logo" data-uk-image />
+                            <img src={lucidLogo} width="100px" alt="LucentWorks Logo" data-uk-image />
+                        </div>
+                        : <NavLink to={`/`}>
+                        <div className="uk-text-nowrap">
+                            <img className="uk-margin-small-right" src={logo} width="80px" alt="MC+A Logo" data-uk-image />
+                            <img src={lucidLogo} width="100px" alt="LucentWorks Logo" data-uk-image />
+                        </div>
+                        </NavLink>
                         }
                     </div>
                 </div>

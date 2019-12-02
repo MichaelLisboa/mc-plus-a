@@ -11,7 +11,8 @@ const Content = () =>
         >
 
         <blockquote className="uk-h2 uk-text-center uk-text-muted uk-container uk-container-small uk-margin-large-bottom" cite="#">
-            <p>Amazon reports that 35% of their sales come from their recommendations systems.</p>
+            <p>“Amazon reports that 35% of their sales come from their recommendations systems.”
+            <small className="uk-text-small uk-display-inline-block uk-margin-small-left"> - McKinsey</small></p>
         </blockquote>
 
         <ConversionsCallout />

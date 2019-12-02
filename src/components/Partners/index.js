@@ -4,6 +4,7 @@ import serverLogo from "../../images/Logos/lucentworks-fusionserver.png";
 import aiLogo from "../../images/Logos/lucentworks-fusionai.png";
 import appstudioLogo from "../../images/Logos/lucentworks-appstudio.png";
 import lucidLogo from "../../images/Logos/lucidworks-partners.png";
+
 import "./Partners.css";
 
 const Partners = () =>
