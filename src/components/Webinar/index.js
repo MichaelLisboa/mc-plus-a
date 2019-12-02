@@ -62,7 +62,7 @@ const Webinar = () =>
                 <h3 className="uk-heading-line uk-text-center"><span>What does this Solution Look Like?</span></h3>
             </div>
         </section>
-        <section className="uk-margin-large">
+        <section className="uk-margin">
             <div className="uk-container uk-container-small uk-flex-auto uk-position-relative">
                 <div className="">
                     <p className="uk-h4">It has Predictive Autocomplete</p>
@@ -103,8 +103,8 @@ const Webinar = () =>
                 </div>
             </div>
         </section>
-        <section className="uk-margin-medium uk-margin-large-bottom">
-            <div className="uk-container uk-container-small" data-uk-scrollspy-class="uk-animation-slide-bottom">
+        <section className="uk-padding-large uk-height-large uk-flex uk-flex-middle uk-section-muted">
+            <div style={{maxWidth: "600px"}} className="uk-container uk-container-small" data-uk-scrollspy-class="uk-animation-slide-bottom">
                 <h3 className="uk-margin-small-top">Ready to personalize?</h3>
                 <p>
                     Today’s e-commerce leaders are elevating the customer experience with personalized on-page engagement, AI-powered recommendations, and much more. MC+A has the technical
