@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/MichaelLisboa/mc-plus-a.git"
 	},
-	"homepage": "https://michaellisboa.github.io/mc-plus-a/",
+	"homepage": ".",
 	"engines": {
 		"node": ">=8.0.0"
 	},
