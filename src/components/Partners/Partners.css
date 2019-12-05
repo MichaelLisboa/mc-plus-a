@@ -1,11 +1,14 @@
-div.partner-products {
-  border: 3px solid blue;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+.partners-section p {
+  text-align: center;
 }
 
-.partner-products > img {
+.partners-section > img {
   object-fit: contain;
   object-position: 50% 50%;
+}
+
+@media (min-width: 640px) {
+  .partners-section p {
+    text-align: left;
+  }
 }

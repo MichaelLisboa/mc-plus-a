@@ -19,6 +19,68 @@ section.tab-container {
 
 blockquote p {
   font-family: "Georgia", "Garamond", serif !important;
-  padding-left: 48px;
-  padding-right: 48px;
+}
+
+@media (min-width: 640px) {
+  blockquote p {
+    font-family: "Georgia", "Garamond", serif !important;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .conversions-cta {
+    position: relative;
+    margin-left: -100px !important;
+  }
+}
+
+
+.services-container .uk-card {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.services-container {
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 56px;
+}
+
+@media (min-width: 960px) {
+  .services-container {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.services-container > ul {
+  display: flex;
+  max-width: 50%;
+}
+
+.services-container > li + li {
+  margin-left: 35px;
+}
+
+.services-container li > a {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(100, 100, 100, 0.6);
+  text-align: center;
+  text-decoration: none;
+  border-style: none none inset;
+  border-bottom: solid rgba(0, 105, 179, 0) 2px;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  padding-bottom: 0 !important;
+  margin: 4px auto;
+}
+
+.services-container li.uk-active > a {
+  color: rgba(39, 168, 222, 1) !important;
+  background-color: transparent !important;
+  border-style: none none inset;
+  border-bottom: solid 2px rgba(39, 168, 222, 1);
 }

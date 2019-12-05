@@ -1,5 +1,4 @@
 import React from "react";
-import EmailForm from "../Forms/EmailForm";
 import ConversionsCallout from "./ConversionsCallout";
 import TabModule from "./TabModule";
 

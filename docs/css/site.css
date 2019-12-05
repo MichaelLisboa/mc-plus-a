@@ -1,11 +1,3 @@
-.nav {
-  position: absolute;
-  top: 15px;
-  z-index: 99;
-  left: 0;
-  right: 0;
-}
-
 .uk-sticky-placeholder {
   height: 0 !important;
 }

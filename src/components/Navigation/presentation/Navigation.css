@@ -1,11 +1,82 @@
+nav {
+  height: 45px !important;
+  min-height: 45px;
+}
+
 nav,
 .uk-navbar-container,
 .uk-navbar {
   background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
-.uk-navbar-left,
-.uk-navbar-right {
-  padding-left: 48px !important;
-  padding-right: 48px !important;
+.nav {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+}
+
+nav > a,
+.uk-navbar-item,
+.uk-navbar-toggle {
+  height: 45px !important;
+  min-height: 45px !important;
+}
+
+.uk-navbar-item img,
+.uk-navbar-item svg {
+  min-width: 45px !important;
+}
+
+@media (min-width: 640px) {
+  nav {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    height: 65px !important;
+    min-height: 65px !important;
+  }
+
+  .uk-navbar-left,
+  .uk-navbar-right {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+
+  .uk-navbar-item img,
+  .uk-navbar-item svg {
+    min-width: 65px !important;
+  }
+
+  nav > a,
+  .uk-navbar-item,
+  .uk-navbar-toggle {
+    height: 65px !important;
+    min-height: 65px !important;
+  }
+}
+
+.uk-offcanvas-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -150vw;
+  box-sizing: border-box;
+  width: 90vw;
+  padding: 20px 30px 20px 0 !important;
+  background-color: rgb(0, 105, 179) !important;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.uk-offcanvas-bar a {
+  color: #fff !important;
+}
+
+.uk-offcanvas-bar-animation {
+  transition: left 0.3s ease-out, opacity 1s ease-out;
+}
+
+.uk-offcanvas-overlay::before {
+  background-color: rgba(0, 105, 179, 1) !important;
 }

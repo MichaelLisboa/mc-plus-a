@@ -8,17 +8,17 @@ import tab_c from "../../images/feedback.png";
 
 const TabModule = () =>
     <section
-        className="tab-container uk-section-muted">
+        className="services-container uk-section-muted">
         <div className="uk-container">
             <Card className="uk-padding">
-                <h2 className="uk-text-center">If they can’t find it, they can’t buy it</h2>
+                <p className="uk-h3 uk-text-center">If they can’t find it, they can’t buy it</p>
 
                     <div className="uk-section uk-section-small uk-padding-remove-top">
-                        <ul className="uk-subnav uk-subnav-pill uk-flex uk-flex-center"
+                        <ul className="uk-subnav uk-flex uk-flex-center"
                             data-uk-switcher="connect: .uk-switcher; animation: uk-animation-fade; autoplay: true; autoplay-interval: 1000;">
-                            <li><a className="uk-border-pill" href="/#">Search</a></li>
-                            <li><a className="uk-border-pill" href="/#">Browse</a></li>
-                            <li><a className="uk-border-pill" href="/#">Curate</a></li>
+                            <li><a className="" href="/#">Search</a></li>
+                            <li><a className="" href="/#">Browse</a></li>
+                            <li><a className="" href="/#">Curate</a></li>
                         </ul>
                     </div>
                 <ul className="uk-switcher uk-margin">
@@ -30,8 +30,8 @@ const TabModule = () =>
                                 <img src={tab_a} data-src={tab_a} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-                                <h6>Exact Search</h6>
-                                <h2 className="uk-margin-small-top">Users are looking for an exact product match</h2>
+                                <h6 className="section-title-primary uk-text-uppercase">Exact Search</h6>
+                                <p className="uk-text-lead uk-margin-small-top">Users are looking for an exact product match</p>
                                 <p className="subtitle-text">
                                     You spend a lot of effort to get a customer to your site. They know exactly what they are looking
                                     for but can’t find it. Often they simply cut and paste other sites’ product tiles directly into
@@ -49,8 +49,8 @@ const TabModule = () =>
                                 <img src={tab_b} data-src={tab_b} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-                                <h6>Recommendations</h6>
-                                <h2 className="uk-margin-small-top">Automatic personalizations</h2>
+                                <h6 className="section-title-primary uk-text-uppercase">Recommendations</h6>
+                                <p className="uk-text-lead uk-margin-small-top">Automatic personalizations</p>
                                 <p className="subtitle-text">
                                     Navigation does not need to be static. An AI-powered platform can provide a hyper-personalized browsing
                                     experience so that each customer’s experience is unique and tailored.  Understanding and predicting user
@@ -65,8 +65,8 @@ const TabModule = () =>
                                 <img src={tab_c} data-src={tab_c} alt="" data-uk-img />
                             </div>
                             <div data-uk-scrollspy-class="uk-animation-slide-right-medium">
-                                <h6>AI</h6>
-                                <h2 className="uk-margin-small-top">Merchandising Feedback Loop</h2>
+                                <h6 className="section-title-primary uk-text-uppercase">AI</h6>
+                                <p className="uk-text-lead uk-margin-small-top">Merchandising Feedback Loop</p>
                                 <p className="subtitle-text">
                                     Make data-driven decisions using the customer traffic patterns or signals to help you optimize the customer
                                     experience on your site.  Run A/B test experiments to remove the guesswork with optimizing your e-commerce.

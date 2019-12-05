@@ -1,8 +1,16 @@
 .uk-cover-container {
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
 }
 
 .top-wrap-height {
   height: 60vh;
   min-height: 460px;
+}
+
+@media (max-width: 640px) {
+  .mobile-hero img {
+    object-fit: cover;
+    object-position: 70% 30%;
+    min-height: 300px !important;
+  }
 }
